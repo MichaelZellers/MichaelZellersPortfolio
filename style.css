@@ -1,0 +1,393 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+}
+
+/* ----------------- CSS RESET ENDS - EDIT PAST HERE ----------------- */
+
+body {
+	background-color: #9ba7bc;
+	font-size: 18px;
+	color: black;
+	font-family: Montserrat;
+	font-weight: 400;
+}
+
+cite {
+	font-family: Times New Roman, serif;
+	font-size: 12;
+}
+
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14;
+	color: black;
+	background-color: white;
+	font-weight: medium;
+	text-transform: full-width;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 48px;
+	color: white;
+	float: left;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+h2 {
+	font-family: 'Merriweather', Verdana, Arial, serif, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color:  white;
+}
+
+h3 {
+	font-family: Montserrat;
+	font-size: 24;
+	font-weight: 400;
+	color:  white;
+	text-align: center;
+}
+
+h4 {
+	font-family: Montserrat;
+	font-size: 24;
+	font-weight: 600;
+	color:  white;
+}
+
+h5 {
+	color: white;
+}
+
+h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18;
+	color: red;
+	background-color: black;
+	font-weight: medium;
+	text-transform: full-width;
+	text-decoration: underline overline #FF3000;
+}
+
+div, header {
+	background-color: #808080;
+	width: 100%;
+	height: 140px;
+	float: none;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+footer {
+	background-color: #808080;
+	width: 100%;
+	height: 140px;
+	float: none;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+section{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+li {
+	display: inline-block;
+	background-color: #808080;
+	padding: 10px;
+	margin: 20px;
+	float: right;
+}
+
+ul li a {
+	font-family: "Montserrat";
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+}
+
+ol {
+	background-color: #808080;
+	font-size: 36px;
+	padding: 40px;
+}
+
+table {
+	background-color: black;
+	color: white;
+	border-spacing: 10px;
+	border: 1px solid white;
+}
+
+tr {
+	border: 1px solid white;
+	font-family: Verdana, Arial, serif, sans-serif;
+}
+
+th{
+	border: 1px solid white;
+	padding: 10px;
+	font-family: Verdana, Arial, serif, sans-serif;
+	font-size: 16;
+	font-weight: bold;
+}
+
+/* ---- USED ID TAGS PAST HERE ---- */
+
+#quoteContent {
+	background-color: #808080;
+	width: 100%;
+	height: 80px;
+}
+
+#quoteText {
+		text-align: center;
+		padding: 30px;
+}
+
+#leftContent{
+	float: left;
+	width: 70%;
+}
+
+#rightContent{
+	float: right;
+	width: 30%;
+}
+
+#topnav {
+	position: relative;
+	bottom: 80%;
+	right: 12%;
+}
+
+#topimage {
+	position: static;
+	display: block;
+	
+}
+
+#blue {
+	width: 6.5%;
+	height: auto;
+	padding: 5px;
+}
+
+#maintitle {
+	position: relative;
+	bottom: 40%;
+}
+
+#headerArea {
+	width: 100%;
+	height: 140px;
+}
+
+#missionTitle {
+	padding: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	color:  white;
+	text-align: center;
+}
+
+#missionText {
+	background-color: #9ba7bc;
+	height: 150px;
+	width: 900px;
+	line-height: 24px;
+	margin: auto;
+}
+
+#aboutTitle {
+	padding-top: 40px;
+	padding-left: 400px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color:  white;
+	text-align: left;
+	width: 500px;
+}
+
+#aboutText {
+	background-color: #9ba7bc;
+	height: 150px;
+	width: 800px;
+	line-height: 24px;
+	text-align: left;
+	padding-left: 400px;
+}
+
+#aboutText2 {
+	text-align: left;
+}
+
+#lastSectionAboutMe {
+	padding-bottom: 50px;
+}
+
+#scrollLink1 {
+	padding-top: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	color:  white;
+	text-align: center;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+}
+
+#imageSection {
+	padding: 50px;
+}
+
+#portimg {
+	padding: 50px;
+	height: auto;
+	width: 25%;
+}
+
+#videoSection {
+	padding: 50px;
+}
+
+video {
+	position: relative;
+	left: 120px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+iframe {
+	position: relative;
+	left: 475px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+#musicSection {
+	padding: 50px;
+}
+
+#formArea {
+	padding: 50px;
+	padding-left: 400px;
+	background-color: #9ba7bc;
+	height: auto;
+	width: auto;
+}
+
+#formArea2 {
+	padding-left: 400px;
+	padding-bottom: 50px;
+	background-color: #9ba7bc;
+	height: auto;
+	width: auto;
+}
+
+#name {
+	padding-bottom: 10px;
+}
+
+#email {
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+#message {
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+#contactText {
+	background-color: #9ba7bc;
+	height: 110px;
+	width: 900px;
+	line-height: 24px;
+	margin: auto;
+}
+
+#inputText {
+	font-size: 16px;
+	color: black;
+	font-family: Montserrat;
+	font-weight: 400;
+}
+
+#inputText2 {
+	font-size: 16px;
+	color: black;
+	font-family: Montserrat;
+	font-weight: 600;
+}
+
+#portfolioTitleText {
+	background-color: #9ba7bc;
+	height: 80px;
+	width: 400px;
+	line-height: 36px;
+	margin: auto;
+	color: white;
+	font-size: 36px;
+	font-family: Montserrat;
+	font-weight: 600;
+}
+
+/*---- MODAL IDs ---- */
